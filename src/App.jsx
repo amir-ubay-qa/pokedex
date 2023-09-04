@@ -461,7 +461,15 @@ const Pagination = ({ total, data, handleClick, range }) => {
         ))}
       </div>
       <p>
-        Displaying pokemon from {range.start + 1} to {range.end + 1}
+        {total <= 100 ? (
+          <>
+            Displaying pokemon from {range.start + 1} to {total}
+          </>
+        ) : (
+          <>
+            Displaying pokemon from {range.start + 1} to {range.end + 1}
+          </>
+        )}
       </p>
     </>
   );
