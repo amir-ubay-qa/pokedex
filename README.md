@@ -1,6 +1,7 @@
 # React + Vite
 
-Welcome in my project of Single Web App Pokedex. You can visit it on this [link](https://pokedex-sable-seven.vercel.app/)
+Welcome in my project of Single Web App Pokedex. You can visit it on this [link](https://pokedex-sable-seven.vercel.app/).
+
 This app is created using these stacks
 1. React + Vite
 2. Supabase (database)
